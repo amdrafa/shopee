@@ -1,11 +1,11 @@
 
-import { Quiz } from "./pages/quiz";
+import { BrowserRouter } from "react-router-dom";
+import { Router } from "./router";
 
 export default function App() {
   return (
-    <>
-      <Quiz />
-    </>
-
+    <BrowserRouter>
+      <Router />
+    </BrowserRouter>
   )
 }

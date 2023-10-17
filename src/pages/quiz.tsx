@@ -31,7 +31,6 @@ export function Quiz() {
 
             {step == 4 && (
                 <Vsl
-                    setSteps={setStep}
                 />
             )}
         </main>
