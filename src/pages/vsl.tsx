@@ -13,7 +13,7 @@ export function Vsl() {
 
     useEffect(() => {
         /* ALTERE O VALOR 10 PARA OS SEGUNDOS EM QUE AS SEÇÕES VÃO APARECER */
-        const SECONDS_TO_DISPLAY = 5;
+        const SECONDS_TO_DISPLAY = 556;
 
         /* DAQUI PARA BAIXO NAO PRECISA ALTERAR */
         let attempts = 0;
@@ -65,18 +65,20 @@ export function Vsl() {
                 <div>
 
                     <div className="border-[8px] rounded-lg border-primary-500 mb-6">
-                        <div dangerouslySetInnerHTML={{ __html: '<div id="vid_652c7b26837d8f0008f5b123" style="position:relative;width:100%;padding: 56.25% 0 0;"><img id="thumb_652c7b26837d8f0008f5b123" src="https://images.converteai.net/4bca4dd6-bbad-4057-809c-56b055191e13/players/652c7b26837d8f0008f5b123/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"><div id="backdrop_652c7b26837d8f0008f5b123" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div></div>' }} />
+                        <div dangerouslySetInnerHTML={{ __html: '<div id="vid_65308e67a1e702000a3fb762" style="position:relative;width:100%;padding: 56.25% 0 0;"><img id="thumb_65308e67a1e702000a3fb762" src="https://images.converteai.net/4bca4dd6-bbad-4057-809c-56b055191e13/players/65308e67a1e702000a3fb762/thumbnail.jpg" style="position:absolute;top:0;left:0;width:100%;height:100%;object-fit:cover;display:block;"><div id="backdrop_65308e67a1e702000a3fb762" style="position:absolute;top:0;width:100%;height:100%;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);"></div></div>' }} />
                         <Helmet>
-                            <script type="text/javascript" id="scr_652c7b26837d8f0008f5b123">var s=document.createElement("script");s.src="https://scripts.converteai.net/4bca4dd6-bbad-4057-809c-56b055191e13/players/652c7b26837d8f0008f5b123/player.js",s.async=!0,document.head.appendChild(s);</script>
+                            <script type="text/javascript" id="scr_65308e67a1e702000a3fb762">var s=document.createElement("script");s.src="https://scripts.converteai.net/4bca4dd6-bbad-4057-809c-56b055191e13/players/65308e67a1e702000a3fb762/player.js",s.async=!0,document.head.appendChild(s);</script>
                         </Helmet>
                     </div>
 
                     <div className="font-bold text-lg text-gray-700 text-center">Assista até o final para liberar seu acesso</div>
 
                     {isVisible && (
-                        <button className="w-full mt-4 bg-green-500 px-6 py-3 font-bold text-white rounded-full text-xl">
-                            QUERO COMEÇAR A LUCRAR HOJE
-                        </button>
+                        <a href="https://go.perfectpay.com.br/PPU38CNBDH8">
+                            <button className="w-full mt-4 bg-green-500 px-6 py-3 font-bold text-white rounded-full text-xl">
+                                QUERO REALIZAR MEU CADASTRO
+                            </button>
+                        </a>
                     )}
                 </div>
 
