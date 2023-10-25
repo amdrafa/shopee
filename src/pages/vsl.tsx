@@ -74,7 +74,7 @@ export function Vsl() {
                     <div className="font-bold text-lg text-gray-700 text-center">Assista até o final para liberar seu acesso</div>
 
                     {isVisible && (
-                        <a href="https://go.perfectpay.com.br/PPU38CNBDH8">
+                        <a href="https://go.perfectpay.com.br/PPU38CNCM93">
                             <button className="w-full mt-4 bg-green-500 px-6 py-3 font-bold text-white rounded-full text-xl">
                                 QUERO REALIZAR MEU CADASTRO
                             </button>
